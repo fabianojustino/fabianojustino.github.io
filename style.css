@@ -19,6 +19,10 @@ body {
 }
 
 #user_perfil{
-    font-family:monospace;
-    color: lightblue;
+    font-family:monospace;    
+}
+
+.subtitle{
+   font-family: sans-serif;
+ 
 }
