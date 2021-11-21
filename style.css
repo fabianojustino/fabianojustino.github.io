@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(49, 128, 119);
+
+}
+
+p{
+  
+}
+
+#label_portfolio {
+    background-color: white;
+    line-height: 80px;
+    margin: -10px;
+    text-align: center;
+
+}
+
+.list_ordenada li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#user_perfil{
+    font-family:monospace;    
+}
+
+.topicos{
+   font-family: sans-serif;
+   color: white;
+ 
+}
+
+.links_rodape{
+    color: blue;
+}
