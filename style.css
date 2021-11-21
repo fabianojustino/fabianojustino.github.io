@@ -1,34 +1,64 @@
 body {
-    background-color: rgb(49, 128, 119);
+    background-color: white
 
 }
 
-p{
-  
-}
+
 
 #label_portfolio {
-    background-color: white;
+    background-color: rgb(49, 128, 119);
+    color: white;
     line-height: 80px;
-    margin: -10px;
+    margin-top: -10px;
     text-align: center;
+    font-weight: 100;
+    font-size: 2em;
+    
 
+}
+
+
+.list_ordenada{
+ 
+    display: inline-flex;
+    list-style-type: none;
+    float: right;
+    line-height: 50px;
+
+    
+    
 }
 
 .list_ordenada li a {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: black;
     font-size: 18px;
     text-decoration: none;
+    margin-left:12px;
+
+  
+    
 }
 
-#user_perfil{
-    font-family:monospace;    
+#user_name{
+    font-family:Arial, Helvetica, sans-serif;
+  
+    color: black;
+    text-decoration-color: black;
+    margin-left: 2%;    
+    
+}
+
+#user_text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .topicos{
    font-family: sans-serif;
-   color: white;
+   color: black;
+   text-decoration: underline;
+ 
+
  
 }
 
