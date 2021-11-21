@@ -48,8 +48,12 @@ body {
     
 }
 
-#user_text{
+#user_definition{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about_user{
+    font-size: 1.1em;
 }
 
 .topicos{
