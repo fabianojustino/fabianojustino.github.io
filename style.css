@@ -3,6 +3,10 @@ body {
 
 }
 
+p{
+  
+}
+
 #label_portfolio {
     background-color: white;
     line-height: 80px;
@@ -22,7 +26,12 @@ body {
     font-family:monospace;    
 }
 
-.subtitle{
+.topicos{
    font-family: sans-serif;
+   color: white;
  
+}
+
+.links_rodape{
+    color: blue;
 }
