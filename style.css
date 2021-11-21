@@ -1,6 +1,5 @@
 body {
     background-color: white
-
 }
 
 
@@ -13,20 +12,20 @@ body {
     text-align: center;
     font-weight: 100;
     font-size: 2em;
-    
+
 
 }
 
 
-.list_ordenada{
- 
+.list_ordenada {
+
     display: inline-flex;
     list-style-type: none;
     float: right;
     line-height: 50px;
 
-    
-    
+
+
 }
 
 .list_ordenada li a {
@@ -34,33 +33,41 @@ body {
     color: black;
     font-size: 18px;
     text-decoration: none;
-    margin-left:12px;
+    margin-left: 12px;
 
-  
-    
+
+
 }
 
-#user_name{
-    font-family:Arial, Helvetica, sans-serif;  
+#user_name {
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-decoration-color: black;
-    margin-left: 2%;    
-    
+    margin-left: 2%;
+
 }
 
-#user_text{
+#user_definition {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.topicos{
-   font-family: sans-serif;
-   color: black;
-   text-decoration: underline;
- 
-
- 
+#about_user {
+    font-size: 1.1em;
 }
 
-.links_rodape{
+.style_1{font-size: 20px;}
+.style_2{font-size: 19px;}
+.style_3{font-size: 18px;}
+.style_4{font-size: 17px;}
+
+
+.topicos {
+    font-family: sans-serif;
+    color: black;
+    text-decoration: underline;
+
+}
+
+.links_rodape {
     color: blue;
 }
