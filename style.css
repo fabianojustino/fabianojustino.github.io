@@ -1,5 +1,7 @@
 body {
-    background-color: white
+    background-color: white;
+  
+    
 }
 
 
@@ -7,8 +9,7 @@ body {
 #label_portfolio {
     background-color: rgb(49, 128, 119);
     color: white;
-    line-height: 80px;
-    margin-top: -10px;
+    line-height: 80px;  
     text-align: center;
     font-weight: 100;
     font-size: 2em;
