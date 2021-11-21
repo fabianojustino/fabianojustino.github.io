@@ -3,3 +3,9 @@ body{
 
 }
 
+#label_portfolio{
+    background-color: white;
+    line-height: 80px;
+    margin: -10px;
+    padding-left: 15px;
+}
