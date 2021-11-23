@@ -1,5 +1,11 @@
 body {
     background-color: #E7ECEF;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -8,15 +14,19 @@ body {
     vertical-align: top;
 }
 
-.box-div{
-    vertical-align: top;
+
+
+.box-div {
     width: 100%;
-  
+    justify-content: space-between;
+
 }
 
 .width-and-height {
-    width: 300px;
-    height: 300px;
+    width: auto;
+  
+
+
 }
 
 /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
@@ -35,62 +45,63 @@ body {
 
 }
 
-.color-black{
-    color:black;
+.color-black {
+    color: black;
 }
 
 
-.color-white{
-    color:white;
+.color-white {
+    color: white;
 }
 
-.top{
+.top {
     margin-top: 20px;
 }
-.bottom{
+
+.bottom {
     margin-bottom: 20px;
 }
 
-.align{
+.align {
     align-content: center;
     text-align: center;
 }
 
-.float-left{
+.float-left {
     float: left;
 }
 
-.float-right{
+.float-right {
     float: right;
 }
 
-.list-type-square{
+.list-type-square {
     list-style-type: square;
 }
 
-.list-type-circle{
+.list-type-circle {
     list-style-type: circle;
 }
 
-.list-type-alpha{
+.list-type-alpha {
     list-style-type: upper-alpha;
 }
 
-.list-type-disc{
+.list-type-disc {
     list-style-type: disc;
 }
 
-.box-shadow{
+.box-shadow {
     box-shadow: 12px 7px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 #head {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0;   
     background-color: #0F7173;
     color: white;
-    height: 100px;
+    height: 60px;
     vertical-align: bottom;
     display: flex;
     justify-content: center;
@@ -98,164 +109,175 @@ body {
     font-weight: 100px;
     font-size: 2em;
     width: 100%;
-   
+    max-height: 50px;
+
 }
 
-#container{
-    display: flex;
-}
+
 
 .menu-list {
-    background-color: #272932;   
+    background-color: #272932;
     margin-right: 10px;
     list-style-type: none;
     float: right;
-    display: flex;
+    display: inline-flex;
     position: fixed;
-    line-height: 60px;
+    line-height: 30px;
     width: 100%;
     left: 0px;
-    top: 65px;
-
-  
-  
+    top: 50px;
+    visibility: hidden;
 
 }
 
-.list-a-no-decoration-white li a{
+.list-a-no-decoration-white li a {
     text-decoration: none;
     color: white;
 }
 
-.list-a-no-decoration-black li a{
+.list-a-no-decoration-black li a {
     text-decoration: none;
     color: black;
 }
 
-.menu-list li a{
+.menu-list li a {
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;   
-    font-size: 30px;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
     padding: 10px;
-    width: 100%;  
+    width: 100%;
     text-decoration: none;
 
 }
 
-.menu-list li:hover{
+.menu-list li:hover {
     background-color: #0F7173;
-    }
- 
- .menu-list li:active{
-     background-color: black;
- }   
+}
+
+.menu-list li:active {
+    background-color: black;
+}
 
 .subtopicos {
     font-family: Arial, Helvetica, sans-serif;
     /**text-decoration: underline;**/
-    text-align: justify;
-    padding-left: 20px;
+    margin: 10px;
+  
+    text-align: center;
+
+
+}
+
+#div-pai {  
+    height: auto; 
+    margin-top: 30px;
+  
+    
     
  
 }
 
-
-.div-user-foto {    
-    float: left;
-    width: 50%;
-    margin-right: 70px;
+#inline-block{
+     width: 80%;
+     margin: auto; 
     
+}
    
+
+.div-user {
+    width: 49%;
+    display:inline-block;
+    margin: auto;
+    vertical-align: top;
+    
+    
+     
 }
 
-
-
-.div-about-user {
-    
-    float: left;
-    text-align: justify;
+.div-user img{
     width: 50%;
-    vertical-align: top; 
-    top:0;
-    
-    margin-right: 30px;
-
-}
-.div-about-user p{
-    background-color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-    padding:20px;
-    margin-bottom: 0px;  
-    color: black;
-    
-}
-
-
-#map{
-    width: 90%;    
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 5px;
-    border-radius: 0% 10% 20% 10%;
-   
-}
-
-
-
-.img-perfil{
-    width: 90%;
-    height: 400px;
+    margin: auto;
     border-radius: 50%;
-    max-height: 400px;
-    margin-top: 30px;
-    top:30px;
-    box-shadow: 12px 12px 12px 12px rgba(2, 2, 2, 0.2);
-  
-   
-}   
+    box-shadow: 2px 2px 2px 2px rgba(2, 2, 2, 0.2);
+    margin-left: 25%;
+    margin-top: 10px;
+
+
+}
+
+
+.text-about{
+
+}
+
+.div-user p.text-about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+    padding: 40px 20px;
+    background-color: #272932;
+
+}
+
+.container{
+    width: 90%;
+    padding: 0px 30px;
+    margin: auto;
+    margin-bottom: 100px;
+}
 
 .div-habilidades {
-    color:white;
-    margin-right: 40px;
-    font-size: 20px;
-    float: left;
-    margin-bottom: 100px;
-     
-    }
-.div-habilidades li{
+    color: white;    
+    font-size: 20px;  
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    margin: 5px 5px;
+    padding: 0 40px;
+
+}
+
+.div-habilidades li {
     font-size: 25px;
 }
 
 
 
-.div-rodape{
-    background-color: #0F7173;
-    border: 3px solid red;
-    float: left;
-    line-height: 100px;
-  
-
-}
-
 .span-user-name {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    margin-top: 140px;
-    width: 100%;   
-    display: inline-block;  
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: inline-block;
 }
 
-#text-explain-user {
+.text-explain-user {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 24px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 #about-user {
     font-size: 1.1em;
 }
 
-.separator{
-    width: 100%;
-    height: 100px;
+.separator {
+    width: 90%;
+    height: 40px;   
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #E7ECEF;
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration:overline;
+
+    
 }
