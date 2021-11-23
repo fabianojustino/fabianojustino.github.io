@@ -213,6 +213,7 @@ body {
     padding: 40px 10px;
     background-color: #272932;
     overflow: auto;
+    max-height: 200px;
 
 }
 
