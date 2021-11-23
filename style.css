@@ -1,72 +1,261 @@
 body {
-    background-color: white;     
+    background-color: #E7ECEF;
 }
 
 
-
-#label_portfolio {
-    background-color: rgb(49, 128, 119);
-    color: white;
-    line-height: 80px;  
+.caixa {
     text-align: center;
-    font-weight: 100;
+    vertical-align: top;
+}
+
+.box-div{
+    vertical-align: top;
+    width: 100%;
+  
+}
+
+.width-and-height {
+    width: 300px;
+    height: 300px;
+}
+
+/* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+.padding {
+    padding: 5px;
+}
+
+/* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+.margin {
+    margin: 20px;
+}
+
+/* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+.border-1PX {
+    border: 1px solid black;
+
+}
+
+.color-black{
+    color:black;
+}
+
+
+.color-white{
+    color:white;
+}
+
+.top{
+    margin-top: 20px;
+}
+.bottom{
+    margin-bottom: 20px;
+}
+
+.align{
+    align-content: center;
+    text-align: center;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.list-type-square{
+    list-style-type: square;
+}
+
+.list-type-circle{
+    list-style-type: circle;
+}
+
+.list-type-alpha{
+    list-style-type: upper-alpha;
+}
+
+.list-type-disc{
+    list-style-type: disc;
+}
+
+.box-shadow{
+    box-shadow: 12px 7px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0F7173;
+    color: white;
+    height: 100px;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100px;
     font-size: 2em;
+    width: 100%;
+   
+}
 
+#container{
+    display: flex;
+}
+
+.menu-list {
+    background-color: #272932;   
+    margin-right: 10px;
+    list-style-type: none;
+    float: right;
+    display: flex;
+    position: fixed;
+    line-height: 60px;
+    width: 100%;
+    left: 0px;
+    top: 65px;
+
+  
+  
 
 }
 
-
-.list_ordenada {
-
-    /*display: inline-flex;
-    list-style-type: none;*/
-    line-height: 20px;
-
-
-
-}
-
-.list_ordenada li a {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    font-size: 18px;
+.list-a-no-decoration-white li a{
     text-decoration: none;
-   
-   
+    color: white;
+}
 
+.list-a-no-decoration-black li a{
+    text-decoration: none;
+    color: black;
+}
 
+.menu-list li a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    font-size: 30px;   
+    padding: 10px;
+    width: 100%;  
+    text-decoration: none;
 
 }
 
-#user_name {
+.menu-list li:hover{
+    background-color: #0F7173;
+    }
+ 
+ .menu-list li:active{
+     background-color: black;
+ }   
+
+.subtopicos {
+    font-family: Arial, Helvetica, sans-serif;
+    /**text-decoration: underline;**/
+    text-align: justify;
+    padding-left: 20px;
+    
+ 
+}
+
+
+.div-user-foto {    
+    float: left;
+    width: 50%;
+    margin-right: 70px;
+    
+   
+}
+
+
+
+.div-about-user {
+    
+    float: left;
+    text-align: justify;
+    width: 50%;
+    vertical-align: top; 
+    top:0;
+    
+    margin-right: 30px;
+
+}
+.div-about-user p{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding:20px;
+    margin-bottom: 0px;  
+    color: black;
+    
+}
+
+
+#map{
+    width: 90%;    
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    border-radius: 0% 10% 20% 10%;
+   
+}
+
+
+
+.img-perfil{
+    width: 90%;
+    height: 400px;
+    border-radius: 50%;
+    max-height: 400px;
+    margin-top: 30px;
+    top:30px;
+    box-shadow: 12px 12px 12px 12px rgba(2, 2, 2, 0.2);
+  
+   
+}   
+
+.div-habilidades {
+    color:white;
+    margin-right: 40px;
+    font-size: 20px;
+    float: left;
+    margin-bottom: 100px;
+     
+    }
+.div-habilidades li{
+    font-size: 25px;
+}
+
+
+
+.div-rodape{
+    background-color: #0F7173;
+    border: 3px solid red;
+    float: left;
+    line-height: 100px;
+  
+
+}
+
+.span-user-name {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    text-decoration-color: black;
-    margin-left: 2%;
-
+    margin-top: 140px;
+    width: 100%;   
+    display: inline-block;  
 }
 
-#user_definition {
+#text-explain-user {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
 }
 
-#about_user {
+#about-user {
     font-size: 1.1em;
 }
 
-.style_1{font-size: 20px;}
-.style_2{font-size: 19px;}
-.style_3{font-size: 18px;}
-.style_4{font-size: 17px;}
-
-
-.topicos {
-    font-family: sans-serif;
-    color: black;
-    text-decoration: underline;
-
-}
-
-.links_rodape {
-    color: blue;
+.separator{
+    width: 100%;
+    height: 100px;
 }
