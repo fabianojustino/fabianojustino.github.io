@@ -24,7 +24,7 @@ body {
 
 .width-and-height {
     width: auto;
-  
+
 
 
 }
@@ -98,7 +98,7 @@ body {
 #head {
     position: fixed;
     top: 0;
-    left: 0;   
+    left: 0;
     background-color: #0F7173;
     color: white;
     height: 60px;
@@ -162,39 +162,36 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     /**text-decoration: underline;**/
     margin: 10px;
-  
+
     text-align: center;
 
 
 }
 
-#div-pai {  
-    height: auto; 
+#div-pai {
+    height: auto;
     margin-top: 30px;
-  
-    
-    
- 
+
 }
 
-#inline-block{
-     width: 80%;
-     margin: auto; 
-    
+#inline-block {
+    width: 90%;
+    margin: auto;
+
 }
-   
+
 
 .div-user {
     width: 49%;
-    display:inline-block;
+    display: inline-block;
     margin: auto;
     vertical-align: top;
-    
-    
-     
+
+
+
 }
 
-.div-user img{
+.div-user img {
     width: 50%;
     margin: auto;
     border-radius: 50%;
@@ -206,21 +203,20 @@ body {
 }
 
 
-.text-about{
-
-}
+.text-about {}
 
 .div-user p.text-about {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     text-align: justify;
     color: white;
-    padding: 40px 20px;
+    padding: 40px 10px;
     background-color: #272932;
+    overflow: auto;
 
 }
 
-.container{
+.container {
     width: 90%;
     padding: 0px 30px;
     margin: auto;
@@ -228,8 +224,8 @@ body {
 }
 
 .div-habilidades {
-    color: white;    
-    font-size: 20px;  
+    color: white;
+    font-size: 20px;
     display: inline-block;
     vertical-align: top;
     text-align: justify;
@@ -268,7 +264,7 @@ body {
 
 .separator {
     width: 90%;
-    height: 40px;   
+    height: 40px;
     margin: auto;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -277,7 +273,7 @@ body {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
-    text-decoration:overline;
+    text-decoration: overline;
 
-    
+
 }
