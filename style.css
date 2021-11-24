@@ -23,9 +23,8 @@ body {
 }
 
 .width-and-height {
-    width: auto;
-
-
+    width: 100%;
+    height: auto;   
 
 }
 
@@ -90,6 +89,10 @@ body {
 .list-type-disc {
     list-style-type: disc;
 }
+.list-type-none {
+    list-style-type: none;
+}
+
 
 .box-shadow {
     box-shadow: 12px 7px 2px 1px rgba(0, 0, 0, 0.2);
@@ -161,9 +164,11 @@ body {
 .subtopicos {
     font-family: Arial, Helvetica, sans-serif;
     /**text-decoration: underline;**/
-    margin: 10px;
 
     text-align: center;
+    font-size: 20px;
+    margin: 20px 0px;
+    padding: 10px 5px;
 
 
 }
@@ -213,25 +218,34 @@ body {
     padding: 40px 10px;
     background-color: #272932;
     overflow: auto;
-    max-height: 200px;
+    height: 200px;
+    max-height: 300px;
 
 }
 
 .container {
-    width: 90%;
-    padding: 0px 30px;
+    width: 100%;   
     margin: auto;
     margin-bottom: 100px;
+  
+}
+
+#container-interna{
+    width: 90%;
+    margin: auto;
+   
 }
 
 .div-habilidades {
     color: white;
     font-size: 20px;
     display: inline-block;
-    vertical-align: top;
-    text-align: justify;
-    margin: 5px 5px;
-    padding: 0 40px;
+    vertical-align: baseline;
+    text-align: justify;   
+  
+    margin: 40px 0px;
+    text-align: center;
+   
 
 }
 
