@@ -24,7 +24,7 @@ body {
 
 .width-and-height {
     width: 100%;
-    height: auto;   
+    height: auto;
 
 }
 
@@ -89,6 +89,7 @@ body {
 .list-type-disc {
     list-style-type: disc;
 }
+
 .list-type-none {
     list-style-type: none;
 }
@@ -166,7 +167,7 @@ body {
     /**text-decoration: underline;**/
 
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     margin: 20px 0px;
     padding: 10px 5px;
 
@@ -211,9 +212,9 @@ body {
 .text-about {}
 
 .div-user p.text-about {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    text-align: justify;
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
     color: white;
     padding: 40px 10px;
     background-color: #272932;
@@ -224,28 +225,26 @@ body {
 }
 
 .container {
-    width: 100%;   
+    width: 100%;
     margin: auto;
     margin-bottom: 100px;
-  
+
 }
 
-#container-interna{
+#container-interna {
     width: 90%;
     margin: auto;
-   
+
 }
 
 .div-habilidades {
-    color: white;
-    font-size: 20px;
+    color: white;  
     display: inline-block;
     vertical-align: baseline;
-    text-align: justify;   
-  
-    margin: 40px 0px;
+    text-align: justify;
+    margin: 20px 0px;
     text-align: center;
-   
+
 
 }
 
@@ -282,7 +281,7 @@ body {
     height: 40px;
     margin: auto;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 15px;
     background-color: #E7ECEF;
     font-family: monospace;
     text-align: center;
