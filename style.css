@@ -28,6 +28,16 @@ body {
 
 }
 
+.width-80{
+    width: 80%;
+    margin: auto;
+}
+
+.width-100{
+    width: 100%;
+    margin: auto;
+}
+
 /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
 .padding {
     padding: 5px;
@@ -174,20 +184,20 @@ body {
 
 }
 
-#div-pai {
+#main {
     height: auto;
     margin-top: 30px;
 
 }
 
 #inline-block {
-    width: 90%;
+    width: 70%;
     margin: auto;
 
 }
 
 
-.div-user {
+.user {
     width: 49%;
     display: inline-block;
     margin: auto;
@@ -197,13 +207,14 @@ body {
 
 }
 
-.div-user img {
+.user img {
     width: 50%;
-    margin: auto;
     border-radius: 50%;
     box-shadow: 2px 2px 2px 2px rgba(2, 2, 2, 0.2);
     margin-left: 25%;
     margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #0F7173;
 
 
 }
@@ -211,8 +222,8 @@ body {
 
 .text-about {}
 
-.div-user p.text-about {
-    font-family:Helvetica, sans-serif;
+.user p.text-about {
+    font-family:giHelvetica, sans-serif;
     font-size: 20px;
     text-align: left;
     color: white;
@@ -225,19 +236,19 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 80%;
     margin: auto;
     margin-bottom: 100px;
 
 }
 
 #container-interna {
-    width: 90%;
+    width: 100%;
     margin: auto;
 
 }
 
-.div-habilidades {
+.habilidades {
     color: white;  
     display: inline-block;
     vertical-align: baseline;
@@ -248,8 +259,20 @@ body {
 
 }
 
-.div-habilidades li {
+.habilidades li {
     font-size: 25px;
+}
+
+.habilidades ul li:nth-child(odd){
+    color: tomato;
+}
+
+.habilidades ol li:nth-child(odd){
+    color: #272932;
+}
+
+.habilidades li a[href*="https://www.instagram.com/fibiano/"]:nth-child(odd){
+    color: black;
 }
 
 
