@@ -163,6 +163,7 @@ background-color:#F05D5E ;
   background-color:#272932 ;
 }
 
+
 .list-a-no-decoration-white li a {
   text-decoration: none; 
 }
@@ -238,6 +239,22 @@ background-color:#F05D5E ;
   background-color: #272932;
   color: white;
   text-align: center;
+}
+
+
+.section__knowledge {
+ display: flex !important;
+
+}
+
+.section__knowledge ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section__knowledge ul li {
+  font-size: 1.3rem;
 }
 
 
