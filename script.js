@@ -1,4 +1,4 @@
-const saibaMais = document.getElementById('saiba-mais');
+const saibaMais = document.getElementById('know__more');
 const corArray = ['blue','green','red','brown','purple'];
 
 saibaMais.addEventListener('mouseover', changeColor);
